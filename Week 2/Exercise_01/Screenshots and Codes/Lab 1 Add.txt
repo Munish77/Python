@@ -1,0 +1,34 @@
+ Directory of O:\23SEPT22\IaC\Lab 1
+
+23/09/2022  12:11    <DIR>          .
+23/09/2022  12:11    <DIR>          ..
+23/09/2022  11:43                21 helloatu.py
+23/09/2022  12:11                59 Add.py
+23/09/2022  11:37                23 Lab 1.py
+23/09/2022  11:51    <DIR>          Screenshots and Codes
+               3 File(s)            103 bytes
+               3 Dir(s)  436,056,027,136 bytes free
+
+O:\23SEPT22\IaC\Lab 1>Add.py
+Calculation: 1 + 2 = 3
+
+O:\23SEPT22\IaC\Lab 1>dir
+ Volume in drive O has no label.
+ Volume Serial Number is 0000-0000
+
+ Directory of O:\23SEPT22\IaC\Lab 1
+
+23/09/2022  12:11    <DIR>          .
+23/09/2022  12:11    <DIR>          ..
+23/09/2022  11:43                21 helloatu.py
+23/09/2022  12:11                98 Add.py
+23/09/2022  11:37                23 Lab 1.py
+23/09/2022  11:51    <DIR>          Screenshots and Codes
+               3 File(s)            142 bytes
+               3 Dir(s)  436,059,652,096 bytes free
+
+O:\23SEPT22\IaC\Lab 1>Add.py
+Calculation: 1 + 2 = 3
+Calculation: 1 - 2 = -1
+
+O:\23SEPT22\IaC\Lab 1>

@@ -1,0 +1,63 @@
+Microsoft Windows [Version 10.0.22000.856]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\L00171225>o:
+
+O:\>dir
+ Volume in drive O has no label.
+ Volume Serial Number is 0000-0000
+
+ Directory of O:\
+
+23/09/2022  11:04    <DIR>          .
+23/09/2022  11:04    <DIR>          ..
+23/09/2022  11:04    <DIR>          23SEPT22
+               0 File(s)              0 bytes
+               3 Dir(s)  436,074,975,232 bytes free
+
+O:\>cd 23SEPT22
+
+O:\23SEPT22>dir
+ Volume in drive O has no label.
+ Volume Serial Number is 0000-0000
+
+ Directory of O:\23SEPT22
+
+23/09/2022  11:04    <DIR>          .
+23/09/2022  11:04    <DIR>          ..
+23/09/2022  11:05    <DIR>          IaC
+               0 File(s)              0 bytes
+               3 Dir(s)  436,075,040,768 bytes free
+
+O:\23SEPT22>cd IaC
+
+O:\23SEPT22\IaC>dir
+ Volume in drive O has no label.
+ Volume Serial Number is 0000-0000
+
+ Directory of O:\23SEPT22\IaC
+
+23/09/2022  11:05    <DIR>          .
+23/09/2022  11:05    <DIR>          ..
+23/09/2022  11:47    <DIR>          Lab 1
+               0 File(s)              0 bytes
+               3 Dir(s)  436,074,995,712 bytes free
+
+O:\23SEPT22\IaC>cd "Lab 1"
+
+O:\23SEPT22\IaC\Lab 1>cd
+O:\23SEPT22\IaC\Lab 1
+
+O:\23SEPT22\IaC\Lab 1>dir
+ Volume in drive O has no label.
+ Volume Serial Number is 0000-0000
+
+ Directory of O:\23SEPT22\IaC\Lab 1
+
+23/09/2022  11:47    <DIR>          .
+23/09/2022  11:47    <DIR>          ..
+23/09/2022  11:43                21 helloatu.py
+23/09/2022  11:37                23 Lab 1.py
+23/09/2022  11:47    <DIR>          Screenshots
+               2 File(s)             44 bytes
+               3 Dir(s)  436,074,876,928 bytes free

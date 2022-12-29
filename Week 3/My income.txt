@@ -1,0 +1,125 @@
+C:\Users\L00171225>
+C:\Users\L00171225>
+C:\Users\L00171225>cd o:/
+
+C:\Users\L00171225>cd o:\
+
+C:\Users\L00171225>o:\
+'o:\' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\L00171225>o:
+
+o:\>dir
+ Volume in drive O has no label.
+ Volume Serial Number is 0000-0000
+
+ Directory of o:\
+
+28/09/2022  09:35    <DIR>          .
+28/09/2022  09:35    <DIR>          ..
+26/09/2022  11:05    <DIR>          IaC
+27/09/2022  15:10            10,476 Document 1.docx
+28/09/2022  22:49    <DIR>          Networking
+27/09/2022  15:05            10,479 Document.docx
+27/09/2022  20:28    <DIR>          Notebooks
+29/09/2022  10:18    <DIR>          Documents
+28/09/2022  09:36    <DIR>          Virtual Server Administration
+               2 File(s)         20,955 bytes
+               7 Dir(s)  377,893,273,600 bytes free
+
+o:\>
+o:\>
+o:\>dir
+ Volume in drive O has no label.
+ Volume Serial Number is 0000-0000
+
+ Directory of o:\
+
+28/09/2022  09:35    <DIR>          .
+28/09/2022  09:35    <DIR>          ..
+30/09/2022  11:47    <DIR>          IaC
+27/09/2022  15:10            10,476 Document 1.docx
+28/09/2022  22:49    <DIR>          Networking
+27/09/2022  15:05            10,479 Document.docx
+27/09/2022  20:28    <DIR>          Notebooks
+29/09/2022  10:18    <DIR>          Documents
+28/09/2022  09:36    <DIR>          Virtual Server Administration
+               2 File(s)         20,955 bytes
+               7 Dir(s)  377,888,595,968 bytes free
+
+o:\>cd IaC
+
+o:\IaC>dir
+ Volume in drive O has no label.
+ Volume Serial Number is 0000-0000
+
+ Directory of o:\IaC
+
+30/09/2022  11:47    <DIR>          .
+30/09/2022  11:47    <DIR>          ..
+30/09/2022  11:30    <DIR>          Week 2
+30/09/2022  11:47    <DIR>          Week 3
+               0 File(s)              0 bytes
+               4 Dir(s)  377,888,493,568 bytes free
+
+o:\IaC>cd Week 3
+
+o:\IaC\Week 3>dir
+ Volume in drive O has no label.
+ Volume Serial Number is 0000-0000
+
+ Directory of o:\IaC\Week 3
+
+30/09/2022  11:47    <DIR>          .
+30/09/2022  11:47    <DIR>          ..
+30/09/2022  11:47               340 new 1.py
+               1 File(s)            340 bytes
+               2 Dir(s)  377,888,493,568 bytes free
+
+o:\IaC\Week 3>cd new 1
+The system cannot find the path specified.
+
+o:\IaC\Week 3>new 1
+'new' is not recognized as an internal or external command,
+operable program or batch file.
+
+o:\IaC\Week 3>dir
+ Volume in drive O has no label.
+ Volume Serial Number is 0000-0000
+
+ Directory of o:\IaC\Week 3
+
+30/09/2022  11:47    <DIR>          .
+30/09/2022  11:47    <DIR>          ..
+30/09/2022  11:47               340 new 1.py
+               1 File(s)            340 bytes
+               2 Dir(s)  377,888,362,496 bytes free
+
+o:\IaC\Week 3>python "new 1.py"
+My Budget!
+My income per month is £1000
+My expenditure per month is £250.0
+My savings per month is £250.0
+
+o:\IaC\Week 3>python "new 1.py"
+My Budget!
+My income per month is £1000
+My expenditure per month is £250.0
+My savings per month is £750.0
+
+o:\IaC\Week 3>python "new 1.py"
+My Budget!
+My income per month is £1000
+My expenditure per month is £250.0
+My savings per month is £750.0
+
+o:\IaC\Week 3>
+
+
+
+
+
+
+
+

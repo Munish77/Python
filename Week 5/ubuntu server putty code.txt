@@ -1,0 +1,124 @@
+login as: munish
+munish@192.168.48.129's password:
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-50-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Fri Oct 14 10:49:21 AM UTC 2022
+
+  System load:  0.57861328125      Processes:              259
+  Usage of /:   34.9% of 23.45GB   Users logged in:        1
+  Memory usage: 27%                IPv4 address for ens33: 192.168.48.129
+  Swap usage:   0%
+
+
+0 updates can be applied immediately.
+
+
+Last login: Fri Oct 14 10:41:41 2022
+munish@ubuntuserver:~$
+munish@ubuntuserver:~$ ls
+munish@ubuntuserver:~$ ls -l
+total 0
+munish@ubuntuserver:~$ pwd
+/home/munish
+munish@ubuntuserver:~$ dir
+munish@ubuntuserver:~$ pwd
+/home/munish
+munish@ubuntuserver:~$ ls -a
+.   .bash_history  .bashrc  .profile  .sudo_as_admin_successful
+..  .bash_logout   .cache   .ssh
+munish@ubuntuserver:~$ ls -al
+total 32
+drwxr-x--- 4 munish munish 4096 Oct 14 10:38 .
+drwxr-xr-x 3 root   root   4096 Oct 14 08:45 ..
+-rw------- 1 munish munish  114 Oct 14 10:38 .bash_history
+-rw-r--r-- 1 munish munish  220 Jan  6  2022 .bash_logout
+-rw-r--r-- 1 munish munish 3771 Jan  6  2022 .bashrc
+drwx------ 2 munish munish 4096 Oct 14 08:46 .cache
+-rw-r--r-- 1 munish munish  807 Jan  6  2022 .profile
+drwx------ 2 munish munish 4096 Oct 14 08:47 .ssh
+-rw-r--r-- 1 munish munish    0 Oct 14 08:53 .sudo_as_admin_successful
+munish@ubuntuserver:~$ cd .ssh
+munish@ubuntuserver:~/.ssh$ ls -al
+total 8
+drwx------ 2 munish munish 4096 Oct 14 08:47 .
+drwxr-x--- 4 munish munish 4096 Oct 14 10:38 ..
+-rw------- 1 munish munish    0 Oct 14 08:47 authorized_keys
+munish@ubuntuserver:~/.ssh$ pwd
+/home/munish/.ssh
+munish@ubuntuserver:~/.ssh$ mkdir Scripts
+munish@ubuntuserver:~/.ssh$ pwd
+/home/munish/.ssh
+munish@ubuntuserver:~/.ssh$ cd Scripts/
+munish@ubuntuserver:~/.ssh/Scripts$ pwd
+/home/munish/.ssh/Scripts
+munish@ubuntuserver:~/.ssh/Scripts$ nano first.sh
+munish@ubuntuserver:~/.ssh/Scripts$ nano first.sh
+munish@ubuntuserver:~/.ssh/Scripts$
+munish@ubuntuserver:~/.ssh/Scripts$
+munish@ubuntuserver:~/.ssh/Scripts$ ls -l
+total 4
+-rw-rw-r-- 1 munish munish 74 Oct 14 10:56 first.sh
+munish@ubuntuserver:~/.ssh/Scripts$ chmod 755 first.sh
+munish@ubuntuserver:~/.ssh/Scripts$ more first.sh
+#!/bin/bash
+echo "Install minimum requirements for  Clone Ubuntu server"
+
+munish@ubuntuserver:~/.ssh/Scripts$
+munish@ubuntuserver:~/.ssh/Scripts$
+munish@ubuntuserver:~/.ssh/Scripts$ NANO first.sh
+NANO: command not found
+munish@ubuntuserver:~/.ssh/Scripts$ nano first.sh
+munish@ubuntuserver:~/.ssh/Scripts$ more first.sh
+#!/bin/bash
+echo "Install minimum requirements for Clone Ubuntu server"
+
+munish@ubuntuserver:~/.ssh/Scripts$ nano first.sh
+munish@ubuntuserver:~/.ssh/Scripts$ more first.sh
+#!/bin/bash
+
+echo "Install minimum requirements for Clone Ubuntu server"
+
+munish@ubuntuserver:~/.ssh/Scripts$ ls
+first.sh
+munish@ubuntuserver:~/.ssh/Scripts$ ./first.sh
+Install minimum requirements for Clone Ubuntu server
+munish@ubuntuserver:~/.ssh/Scripts$ nano first.sh
+munish@ubuntuserver:~/.ssh/Scripts$
+munish@ubuntuserver:~/.ssh/Scripts$ ./first.sh
+Install minimum requirements for Clone Ubuntu server
+[sudo] password for munish:
+Hit:1 http://ie.archive.ubuntu.com/ubuntu jammy InRelease
+Get:2 http://ie.archive.ubuntu.com/ubuntu jammy-updates InRelease [114 kB]
+Get:3 http://ie.archive.ubuntu.com/ubuntu jammy-backports InRelease [99.8 kB]
+Get:4 http://ie.archive.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+Get:5 http://ie.archive.ubuntu.com/ubuntu jammy-security/main amd64 Packages [37                                        2 kB]
+Get:6 http://ie.archive.ubuntu.com/ubuntu jammy-security/main Translation-en [84                                        .4 kB]
+Get:7 http://ie.archive.ubuntu.com/ubuntu jammy-security/restricted amd64 Packag                                        es [339 kB]
+Get:8 http://ie.archive.ubuntu.com/ubuntu jammy-security/restricted Translation-                                        en [52.2 kB]
+Fetched 1,172 kB in 2s (761 kB/s)
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+1 package can be upgraded. Run 'apt list --upgradable' to see it.
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Calculating upgrade... Done
+Try Ubuntu Pro beta with a free personal subscription on up to 5 machines.
+Learn more at https://ubuntu.com/pro
+The following packages have been kept back:
+  cloud-init
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+nano is already the newest version (6.2-1).
+nano set to manually installed.
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+./first.sh: line 11: eco: command not found
+
+munish@ubuntuserver:~/.ssh/Scripts$
